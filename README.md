@@ -59,10 +59,10 @@ Fix for ZEISS Axiovision 4.8.3 installation on Windows 11 where the MTB2004 serv
 
 ```powershell
 & "C:\Windows\Microsoft.NET\Framework\v2.0.50727\InstallUtil.exe" "C:\Program Files (x86)\Carl Zeiss\MTB 2004 - 1.8.1.8\MTB Server Console\MTBService.exe"
-
+```
 成功提示： 執行成功後，您會看到數行輸出，最後顯示 “已經成功完成認可階段”。
 
-步驟 4：啟動服務並設定為自動
+### 步驟 4：啟動服務並設定為自動
 服務已經安裝，但尚未運行。
 
 開啟 “服務” 管理器：按下 Win + R 鍵，輸入 services.msc 並按 Enter。
